@@ -1,0 +1,126 @@
+/* Web Apps Assignment 4 */
+/* Nishanth Nathan */
+
+/* Speech */
+.speech {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Stage directions */
+.direction {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    background-color: lightyellow;
+    color: darkgreen;
+    padding: 6px;
+}
+
+/* Hover over stage directions */
+.direction:hover {
+    background-color: lightblue;
+    color: darkred;
+}
+
+/* Character names */
+.name {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/* Character colors */
+.mrs-linde {
+    color: darkgreen;
+}
+
+.krogstad {
+    color: darkred;
+}
+
+.nora {
+    color: purple;
+}
+
+.helmer {
+    color: darkblue;
+}
+
+/* q class for speech */
+.q {
+    font-style: italic;
+}
+
+/* PART 9 - Hover effect for character names */
+.name:hover {
+    text-shadow: 2px 2px 6px purple;
+    box-shadow: 2px 2px 8px gray;
+    border: 2px solid purple;
+    filter: blur(0.3px);
+    padding: 5px;
+    display: inline-block;
+}
+
+/* PART 7 - Table */
+.character-table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 25px auto;
+    font-family: Arial, sans-serif;
+}
+
+.character-table th,
+.character-table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.character-table th {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.character-table tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.character-table tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Bonus image */
+.play-image {
+    display: block;
+    width: 260px;
+    max-width: 80%;
+    margin: 25px auto;
+    border: 3px solid darkslateblue;
+    padding: 5px;
+}
+
+/* Bonus navbar */
+.navbar {
+    background-color: darkslateblue;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
